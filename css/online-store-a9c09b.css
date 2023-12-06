@@ -1793,8 +1793,8 @@ a {
 }
 
 .gallery-section {
-  margin-bottom: 98px;
-  padding: 101px 25px;
+  margin-bottom: 0;
+  padding: 101px 25px 0;
   overflow: hidden;
 }
 
