@@ -2035,6 +2035,7 @@ a {
   margin-left: 53vw;
   padding-left: 0;
   position: absolute;
+  bottom: -3.297px;
   transform: rotateX(0)rotateY(-180deg)rotateZ(0);
 }
 
@@ -3357,7 +3358,8 @@ a {
     z-index: 31;
     font-size: 15px;
     top: 63px;
-    left: 56px;
+    left: auto;
+    right: 50px;
   }
 
   .subscribe-form-flex.black {
@@ -3474,7 +3476,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 0;
-    display: flex;
+    display: none;
     top: 17px;
     right: 0;
   }
@@ -3602,6 +3604,10 @@ a {
     background-size: cover;
   }
 
+  .gallery-section {
+    padding-bottom: 0;
+  }
+
   .prev_next {
     display: flex;
   }
@@ -3667,7 +3673,7 @@ a {
   }
 
   .new-arrivals {
-    height: 100vh;
+    height: 70vh;
     background-size: cover;
     align-items: center;
   }
@@ -3677,9 +3683,18 @@ a {
     padding-bottom: 2px;
   }
 
+  .containt-holder {
+    font-size: 10px;
+  }
+
+  .text-block-20 {
+    font-size: 40px;
+  }
+
   .image-12 {
     margin-left: auto;
     margin-right: auto;
+    display: none;
   }
 
   .col-2-newsletter {
@@ -3702,6 +3717,10 @@ a {
 
   .btn-a-propos {
     height: 100px;
+  }
+
+  .link-4 {
+    font-weight: 700;
   }
 
   .sort-button {
